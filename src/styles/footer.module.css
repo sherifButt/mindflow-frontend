@@ -1,0 +1,60 @@
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.links a {
+  margin: 0 0.5rem;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #333;
+}
+
+.copy {
+  margin-top: 2rem;
+  text-align: center;
+  color: #999;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .links {
+    flex-wrap: wrap;
+  }
+
+  .links a {
+    margin: 0.5rem 0;
+  }
+}
+
+
+

@@ -1,0 +1,12 @@
+
+
+
+Disallow: /admin
+Disallow: /private
+Disallow: /secret-page.html
+Disallow: /images/
+Disallow: /scripts/
+Disallow: /styles/
+
+
+
