@@ -1,6 +1,3 @@
-
-
-```markdown
 # DiagramApp
 
 DiagramApp is a collaborative, real-time diagramming web application.
@@ -42,7 +39,7 @@ npm install
 
 Create a `.env` file in the root directory and add the following variables:
 
-```
+```js
 DB_HOST=<database-host>
 DB_USER=<database-username>
 DB_PASSWORD=<database-password>
@@ -79,6 +76,5 @@ The application can be deployed to a hosting platform of your choice. Make sure 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
 Please note that this is just an example and you may need to modify it based on your specific project requirements and structure.
